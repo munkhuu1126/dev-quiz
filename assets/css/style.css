@@ -13,7 +13,7 @@
 }
 
 body, html {
-    height: 100%;
+    height:100%;
     color: #fff;
     position: relative;
 }
@@ -22,11 +22,11 @@ body, html {
     background-color: #000000;
     background-image: url("../images/dev\ quiz.png");
     background-size: cover;
-
-    height: 100%;
-
+    background-position: center;
+    height: 125%;
+    background-repeat: repeat;
     padding-bottom: 3.0rem;
-    overflow: hidden;
+    
     display: block,
 }
 
@@ -34,7 +34,7 @@ body, html {
     text-align: center;
     padding-bottom: 3.0rem;
     border-radius: 12px;
-    margin-top:12rem
+    margin-top:18rem;
 }
 
 .containe2 {
