@@ -22,8 +22,9 @@ body, html {
     background-color: #000000;
     background-image: url("../images/quiz\ background.png");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 125%;
-    background-repeat: repeat;
     padding-bottom: 3.0rem;
     
     display: block,
