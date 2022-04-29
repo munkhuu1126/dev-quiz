@@ -8,241 +8,241 @@ $(document).ready(function () {
     var allQuestions = [
         {
           "№": 1,
-          "question": "C хэлийг хэн зохион бүтээсэн бэ?",
-          "correctAnswer": "Dennis Ritchie",
+          "question": "Хамгийн анхны блокчэйн гэрлэлт Америкийн аль мужид болсон бэ? ",
+          "correctAnswer": "Калифорн",
           "answers": {
-            "a": "Dennis Ritchie",
-            "b": "James Gosling",
-            "c": "Rob Pike",
-            "d": "Brendan Eich"
+            "a": "Нью Йорк",
+            "b": "Калифорн",
+            "c": "Вашингтон",
+            "d": "Илинойс"
           }
           
         },
         {
           "№": 2,
-          "question": "Энэ дундаас аль нь програмчлалын хэл биш вэ?",
-          "correctAnswer": "HTML",
+          "question": "Эфириумын анхны Hard fork нь ямар нэртэй вэ?",
+          "correctAnswer": "Homestead",
           "answers": {
-            "a": "C",
-            "b": "Java",
-            "c": "HTML",
-            "d": "Ruby"
+            "a": "London",
+            "b": "Byzantium",
+            "c": "Homestead",
+            "d": "Bill Gates"
           }
           
         },
         {
           "№": 3,
-          "question": "StackOverflow дээр 2021 онд хамгийн их асуулт асуугдсан програмчлалын хэл?",
-          "correctAnswer": "Javascript",
+          "question": "Биткойныг үүсгэн байгуулсан хүнийг хэн гэж үздэг бэ?",
+          "correctAnswer": "Сатоши Накамото",
           "answers": {
-            "a": "Python",
-            "b": "Java",
-            "c": "C++",
-            "d": "Javascript"
+            "a": "Сатоши Накамото",
+            "b": "Франк Вилтнер",
+            "c": "Виталик Бутерин",
+            "d": "Билл Гэйтс"
           }
           
         },
         {
           "№": 4,
-          "question": "Python хэлийг хэн зохиосон бэ?",
-          "correctAnswer": "Guido van Rossum",
+          "question": "Bitcoin.org домайн анх хэдэн онд бүртгэгдсэн бэ?",
+          "correctAnswer": "2008",
           "answers": {
-            "a": "Dennis Ritchie",
-            "b": "Guido van Rossum",
-            "c": "Brendan Eich",
-            "d": "Anders Hejlsberg"
+            "a": "2010",
+            "b": "2013",
+            "c": "2009",
+            "d": "2008"
           }
           
         },
         {
           "№": 5,
-          "question": "Microsoft-ын CEO?",
-          "correctAnswer": "Satya Nadella",
+          "question": "Эфириумын Proof-of-stake нэвтрүүлсэн сүлжээг юу гэж нэрлэдэг бэ?",
+          "correctAnswer": "Beacon",
           "answers": {
-            "a": "Bill Gates",
-            "b": "Steve Ballmer",
-            "c": "Larry Page",
-            "d": "Satya Nadella"
+            "a": "Frontier",
+            "b": "Beacon",
+            "c": "Staking",
+            "d": "Bill Gates"
           }
           
         },
         {
           "№": 6,
-          "question": "Хамгийн анхны компьютер хэдэн онд бүтээгдсэн бэ?",
-          "correctAnswer": 1943,
+          "question": "USDT буюу Tether нь ямар төрлийн крипто хөрөнгөд ордог бэ?",
+          "correctAnswer": 'Stablecoin',
           "answers": {
-            "a": 1936,
-            "b": 1943,
-            "c": 1955,
-            "d": 1951
+            "a": 'Bill Gates Coin',
+            "b": 'Blockchain Coin',
+            "c": 'USDCoin',
+            "d": 'Stablecoin'
           }
           
         },
         {
           "№": 7,
-          "question": "Компьютерын ухааны \"эцэг\"?",
-          "correctAnswer": "Alan Turing",
+          "question": "Дэлхийн валютын хэд орчим хувь цахим хэлбэрээр гүйлгээнд оролцдог вэ ?",
+          "correctAnswer": "90 орчим",
           "answers": {
-            "a": "John von Neumann",
-            "b": "Alan Turing",
-            "c": "Bill Gates",
-            "d": "Alan Newman"
+            "a": "80 орчим",
+            "b": "90 орчим",
+            "c": "60 орчим",
+            "d": "70 орчим"
           }
           
         },
         {
           "№": 8,
-          "question": "Javascript хэлийг хэн зохион бүтээсэн бэ?",
-          "correctAnswer": "Brendan Eich",
+          "question": "Хамгийн анхны биткойн хэдэн онд олборлогдсон бэ?",
+          "correctAnswer": "2009",
           "answers": {
-            "a": "Brendan Eich",
-            "b": "Guido van Rossum",
-            "c": "Anders Hejlsberg",
-            "d": "Alan Turing"
+            "a": "2009",
+            "b": "2008",
+            "c": "2010",
+            "d": "2013"
           }
           
         },
         {
           "№": 9,
-          "question": "C# хэлийг хэн зохион бүтээсэн бэ?",
-          "correctAnswer": "Anders Hejlsberg",
+          "question": "АрдКойн анх зах зээлд хэдэн төгрөгөөр гарч байсан бэ?",
+          "correctAnswer": "1 төгрөг",
           "answers": {
-            "a": "Brendan Eich",
-            "b": "Guido van Rossum",
-            "c": "Anders Hejlsberg",
-            "d": "Alan Turing"
+            "a": "10 төгрөг",
+            "b": "15 төгрөг",
+            "c": "5 төгрөг",
+            "d": "1 төгрөг"
           }
           
         },
         {
           "№": 10,
-          "question": "Эдгээрээс аль нь объект хандлагат програмчлалын хэл биш вэ?",
-          "correctAnswer": "PASCAL",
+          "question": "АрдКойн зах зээлд хэдэн ширхэг гарсан бэ?",
+          "correctAnswer": "5.1 тэрбум",
           "answers": {
-            "a": "Solidity",
-            "b": "C#",
-            "c": "Perl",
-            "d": "PASCAL"
+            "a": "100 тэрбум",
+            "b": "5.1 тэрбум",
+            "c": "10 тэрбум",
+            "d": "15 тэрбум"
           }
           
         },
         {
           "№": 11,
-          "question": "Монголд интернэт нэвтэрсэн өдөр?",
-          "correctAnswer": "1 сарын 16",
+          "question": "Их хэмжээний Койн эзэмшдэг хүнийг юу гэж нэрлэдэг вэ?",
+          "correctAnswer": "Whale",
           "answers": {
-            "a": "1 сарын 16",
-            "b": "3 сарын 7",
-            "c": "6 сарын 1",
-            "d": "1 сарын 10"
+            "a": "Shark",
+            "b": "Squid",
+            "c": "Tail",
+            "d": "Whale"
           }
           
         },
         {
           "№": 12,
-          "question": "Хамгийн анхны өнгөт дэлгэцтэй компьютер?",
-          "correctAnswer": "Apple 1",
+          "question": "Биткойны нийлүүлэлт хэд вэ? ",
+          "correctAnswer": "21,000,000",
           "answers": {
-            "a": "Macintosh",
-            "b": "Apple 2 plus",
-            "c": "Christopher",
-            "d": "Apple 1"
+            "a": "20,000,000",
+            "b": "19,000,000",
+            "c": "21,000,000",
+            "d": "22,000,000"
           }
           
         },
         {
           "№": 13,
-          "question": "Эдгээр цагийн комплексуудын аль нь хамгийн удаан бэ?",
-          "correctAnswer": "O(n!)",
+          "question": "Дэлхийд хамгийн анх криптовалютаар юу худалдаж авч байсан бэ?",
+          "correctAnswer": "Пицца",
           "answers": {
-            "a": "O(1)",
-            "b": "O(2n)",
-            "c": "O(n!)",
-            "d": "O(n)"
+            "a": "Пицца",
+            "b": "Зурагт",
+            "c": "Компьютер",
+            "d": "Машин"
           }
           
         },
         {
           "№": 14,
-          "question": "Өөрөө өөрийгөө дууддаг функцийг ___ гэнэ.",
-          "correctAnswer": "recursive function",
+          "question": "Хамгийн анхны криптовалют?",
+          "correctAnswer": "Bitcoin",
           "answers": {
-            "a": "constructor function",
-            "b": "initialization function",
-            "c": "function with parameters",
-            "d": "recursive function"
+            "a": "Luna",
+            "b": "Bitcoin",
+            "c": "Dogecoin",
+            "d": "Ether"
           }
           
         },
         {
           "№": 15,
-          "question": "Class дотор хамгийн эхэнд ажилладаг функцийг ___ гэнэ.",
-          "correctAnswer": "constructor function",
+          "question": "Эдгээр орнуудын аль нь Bitcoin -ийн хамгийн том олборлогчдын нэг вэ?",
+          "correctAnswer": "Хятад",
           "answers": {
-            "a": "function",
-            "b": "recursive function",
-            "c": "constructor function",
-            "d": "constructor class"
+            "a": "Франц",
+            "b": "Балба",
+            "c": "Хятад",
+            "d": "Алжир"
           }
           
         },
         {
           "№": 16,
-          "question": "Queue-ийн ажиллаж зарчим?",
-          "correctAnswer": "FIFO",
+          "question": "iDAX биржийн Crypto Cash үйлчилгээний зориулалт",
+          "correctAnswer": "Койноо барьцаалан зээл авах",
           "answers": {
-            "a": "FILO",
-            "b": "FIFO",
-            "c": "FOLI",
-            "d": "LIFO"
+            "a": "Койн зээлэх",
+            "b": "Хадгаламж",
+            "c": "Зарлага гаргах",
+            "d": "Койноо барьцаалан зээл авах"
           }
           
         },
         {
           "№": 17,
-          "question": "Stack өгөгдлийн бүтцийн ажиллах зарчим",
-          "correctAnswer": "FILO",
+          "question": "Биткойны 0.00000001-тэй тэнцэх хамгийн бага нэгжийн нэр?",
+          "correctAnswer": "Satoshi",
           "answers": {
-            "a": "FILO",
-            "b": "FIFO",
-            "c": "FOLI",
-            "d": "LIFO"
+            "a": "Satoshi",
+            "b": "Minibit",
+            "c": "Smalbit",
+            "d": "Ethereum"
           }
           
         },
         {
           "№": 18,
-          "question": "Tree Sort-ийн worst time complexity нь юу вэ?",
-          "correctAnswer": "O(n^2)",
+          "question": "Биткойноос бусад койнуудыг ерөнхийлөн нэрлэдэг нэр?",
+          "correctAnswer": "Altcoin",
           "answers": {
-            "a": "O(n2)",
-            "b": "O(n^2)",
-            "c": "O(n log n)",
-            "d": "O(n)"
+            "a": "Acoin",
+            "b": "Altcoin",
+            "c": "Money",
+            "d": "Othercoin"
           }
           
         },
         {
           "№": 19,
-          "question": "Аль бодлого нь дараалсан тоог нийлбэр нь тэнцүү байх 2 хэсэгт хуваадаг вэ?",
-          "correctAnswer": "Subset Sum Problem",
+          "question": "Криптовалютын ертөнцөд ямар өдрийг Биткойн Пиццаны өдөр болгон тэмдэглэдэг вэ?",
+          "correctAnswer": "5 сарын 22",
           "answers": {
-            "a": "Subset Sum Problem",
-            "b": "Knapsack Problem",
-            "c": "Maximum Flow Problem",
-            "d": "Travelling Salesman problem"
+            "a": "7 сарын 4",
+            "b": "2 сарын 5",
+            "c": "5 сарын 22",
+            "d": "12 сарын 10"
           }
           
         },
         {
           "№": 20,
-          "question": "Нэг классаас олон хэлбэрт удамшихыг ___ гэнэ.",
-          "correctAnswer": "Polymorphism",
+          "question": "Санхүүгийн бүтээгдэхүүнийг төвлөрсөн бус блокчэйн сүлжээнд ашиглах боломжтой системийг нэрлэдэг?",
+          "correctAnswer": "DeFi",
           "answers": {
-            "a": "Inheritance",
-            "b": "Polymorphism",
-            "c": "abstract",
-            "d": "implement"
+            "a": "FinChain",
+            "b": "Bona FiDe",
+            "c": "DCFP (decentralized Financial Products)",
+            "d": "DeFi"
           }
           
         },
@@ -260,349 +260,241 @@ $(document).ready(function () {
         },
         {
           "№": 22,
-          "question": "HTML нь ямар үгний товчлол вэ?",
-          "correctAnswer": "Hyper Text Markup Language",
+          "question": "Хэн гэдэг реппэр 2015 онд \"Animal Ambition\" цомгоо Биткойноор худалдаж авах боломжтой болгож, 700 гаруй BTC борлуулалт хийсэн бэ?",
+          "correctAnswer": "50 Cent",
           "answers": {
-            "a": "Hyper Trainer Marking Language",
-            "b": "Hyper Text Marketing Language",
-            "c": "Hyper Text Markup Language",
-            "d": "Hyper Text Markup Leveler"
+            "a": "50 Cent",
+            "b": "Eminem",
+            "c": "Jay-Z",
+            "d": "Kanye West"
           }
           
         },
         {
           "№": 23,
-          "question": "Aнхны high level програмчлалын хэл?",
-          "correctAnswer": "Fortran",
+          "question": "2018 онд аль байгууллага блокчэйнд суурилсан Бонд-I нэртэй бонд гаргасан бэ?",
+          "correctAnswer": "Дэлхийн Банк",
           "answers": {
-            "a": "Basic",
-            "b": "Fortran",
-            "c": "HTML",
-            "d": "COBOL"
+            "a": "Олон Улсын Валютын Сан",
+            "b": "Дэлхийн Банк",
+            "c": "Европын Холбоо",
+            "d": "Дэлхийн худалдааны байгууллага"
           }
           
         },
         {
           "№": 24,
-          "question": "Stack Overflow 2021 оны судалгаан дээр аль хэл хамгийн их хэрэглэгдсэн бэ?",
-          "correctAnswer": "Javascript",
+          "question": "\"DApp\" дээрх D нь ямар утгатай вэ?",
+          "correctAnswer": "Decentralized",
           "answers": {
-            "a": "Python",
-            "b": "Javascript",
-            "c": "Java",
-            "d": "C++"
+            "a": "Distributed",
+            "b": "Defined",
+            "c": "Decentralized",
+            "d": "Dogecoin"
           }
           
         },
         {
           "№": 25,
-          "question": "Stack Overflow 2021 оны судалгаан дээр аль web framework хамгийн их ашиглагдсан бэ?",
-          "correctAnswer": "React",
+          "question": "Хэрэв 1 BTC нь 100 сая Сатоши -тай тэнцүү бол 1 ETH нь 1 тэрбум _____ -тай тэнцүү вэ?",
+          "correctAnswer": "Gwei",
           "answers": {
-            "a": "Vue.js",
-            "b": "Angular",
-            "c": "Svelte",
-            "d": "React"
+            "a": "Ethbits",
+            "b": "Sols",
+            "c": "Matic",
+            "d": "Gwei"
           }
           
         },
         {
           "№": 26,
-          "question": "Монголд интернэт анх хэдэн онд орж ирсэн бэ?",
-          "correctAnswer": "1996 он",
+          "question": "Эфириумын үүсгэн байгуулагчдын нэг Gavin Wood хожим 2016 онд Эфириумээс гарч өөрийн ямар сүлжээг эхлүүлсэн вэ?",
+          "correctAnswer": "Polkadot",
           "answers": {
-            "a": "1996 он",
-            "b": "1988 он",
-            "c": "1997 он",
-            "d": "2001 он"
+            "a": "Polkadot",
+            "b": "Cardano",
+            "c": "Solana",
+            "d": "Harmony"
           }
           
         },
         {
           "№": 27,
-          "question": "Wi-fi ямар үгсийн товчлол вэ?",
-          "correctAnswer": "Wireless Fidelity",
+          "question": "Биткойны боломжит нөөцийн хэдэн хувь нь одоогоор олборлогдсон байгаа вэ?",
+          "correctAnswer": "90%",
           "answers": {
-            "a": "Wireless Fidelity",
-            "b": "Wireless Fi",
-            "c": "Wired - Fiction",
-            "d": "Ямар нэгэн үгний товчлол биш"
+            "a": "48%",
+            "b": "90%",
+            "c": "32%",
+            "d": "25%"
           }
           
         },
         {
           "№": 28,
-          "question": "Wikipedia-ийн backend-ийг ямар хэл дээр бичсэн бэ?",
-          "correctAnswer": "PHP",
+          "question": "NBA тоглогчдынхоо онцлох үйл явдлын NFT борлуулдаг платформын нэр? ",
+          "correctAnswer": "Top Shot",
           "answers": {
-            "a": "C#",
-            "b": "PHP",
-            "c": "Python",
-            "d": "Javascript"
+            "a": "Sizzle Reel",
+            "b": "Court Stars",
+            "c": "Top Shot",
+            "d": "Highlight Frame"
           }
           
         },
         {
           "№": 29,
-          "question": "Computer юу ойлгодог вэ?",
-          "correctAnswer": "Machine Code",
+          "question": "Хэрэглэгчид виртуал ертөнцөд газар авах, барих, зарах боломж олгодог Эфириумын блокчэйн дээр суурилсан төвлөрсөн бус 3D виртуал платформын нэр?",
+          "correctAnswer": "Decentraland",
           "answers": {
-            "a": "Machine Code",
-            "b": "Computer Code",
-            "c": "Computer Language",
-            "d": "Machine Language"
+            "a": "Minecraft",
+            "b": "Runescape",
+            "c": "Sims",
+            "d": "Decentraland"
           }
           
         },
         {
           "№": 30,
-          "question": "Windows үйлдлийн систем ямар хэл дээр бичигдсэн бэ?",
-          "correctAnswer": "C",
+          "question": "2021 оны 6 -р сард Төв Америкийн аль улс биткоиныг хууль ёсны төлбөрийн хэрэгсэл болгон хүлээн авсан дэлхийн анхны улс болсон бэ?",
+          "correctAnswer": "Эл Салвадор",
           "answers": {
-            "a": "C",
-            "b": "Python",
-            "c": "Java",
-            "d": "Javascript"
+            "a": "Эл Салвадор",
+            "b": "Куба",
+            "c": "Панам",
+            "d": "Гватемал"
           }
           
         },
         {
           "№": 31,
-          "question": "Эдгээрээс Statically-Typed хэл нь аль вэ?",
-          "correctAnswer": "C#",
+          "question": "Японы Шиба Инү үүлдрийн нохой нь онлайн меме хэлбэрээр алдартай болсон бөгөөд ямар криптовалюттай холбоотой вэ?",
+          "correctAnswer": "Dogecoin",
           "answers": {
-            "a": "Javascript",
-            "b": "C#",
-            "c": "Python",
-            "d": "Perl"
+            "a": "Luckycoin",
+            "b": "Dogecoin",
+            "c": "Litecoin",
+            "d": "Stellar"
           }
           
         },
         {
           "№": 32,
-          "question": "Firefox-ийн ашигладаг javascript engine аль нь вэ?",
-          "correctAnswer": "Spider Monkey",
+          "question": "Cardano Foundation ямар криптовалютыг алдарт математикчийн нэрээр  нэрлэсэн бэ?",
+          "correctAnswer": "ADA",
           "answers": {
-            "a": "Spider Monkey",
-            "b": "V8",
-            "c": "chakra",
-            "d": "carakan"
+            "a": "ETH",
+            "b": "THETA",
+            "c": "ADA",
+            "d": "SOL"
           }
           
         },
         {
           "№": 33,
-          "question": "Том үсгийг тооцдоггүй RegEx нь аль вэ?",
-          "correctAnswer": "[^A-Z]",
+          "question": "HODL бол криптовалютыг урт хугацаанд хадгалах стратеги юм. Энэ нь бичгийн алдаа хэлбэрээр эхэлсэн боловч одоо юу гэсэн утгатай вэ?",
+          "correctAnswer": "Hold On for Dear Life",
           "answers": {
-            "a": "[^A-Z]",
-            "b": "^[A-Z]",
-            "c": "^[a-z]",
-            "d": "[^a-z]"
+            "a": "Hoarding of Decentralized Litecoin",
+            "b": "Happy once Doge Lifts",
+            "c": "Having Old Decrypted Ledgers",
+            "d": "Hold On for Dear Life"
           }
           
         },
         {
           "№": 34,
-          "question": "ReactJS-ийг ямар компани хөгжүүлсэн бэ?",
-          "correctAnswer": "Facebook",
+          "question": "Дэлхийн хамгийн идэвхтэй арилжаалагддаг криптовалют юу вэ?",
+          "correctAnswer": "Tether",
           "answers": {
-            "a": "Facebook",
-            "b": "Google",
-            "c": "Microsoft",
-            "d": "Apple"
+            "a": "Tether",
+            "b": "Bitcoin",
+            "c": "Ether",
+            "d": "Dogecoin"
           }
           
         },
         {
           "№": 35,
-          "question": "Алдарт minecraft-ийг ямар програмчлалын хэл дээр бичсэн бэ?",
-          "correctAnswer": "Java",
+          "question": "Хамгийн анх аль блокчэйн дээр ухаалаг гэрээг байгуулах боломжтой болсон бэ?",
+          "correctAnswer": "Ethereum",
           "answers": {
-            "a": "Java",
-            "b": "Python",
-            "c": "C#",
-            "d": "PHP"
+            "a": "Cardano",
+            "b": "Ethereum",
+            "c": "Bitcoin",
+            "d": "Matic"
           }
           
         },
         {
           "№": 36,
-          "question": "Нeйрон сүлжээний эхний давхаргыг юу гэдэг вэ?",
-          "correctAnswer": "Input Layer",
+          "question": "NFT гэж юу гэсэн үгний товчлол вэ?",
+          "correctAnswer": "Non-fungible token",
           "answers": {
-            "a": "Input Layer",
-            "b": "Hidden Layer",
-            "c": "Output Layer",
-            "d": "White Layer"
+            "a": "No Further Text",
+            "b": "Non-fungeble token",
+            "c": "Non-fungible token",
+            "d": "Non-forgettable token"
           }
           
         },
         {
           "№": 37,
-          "question": "uint8 хэдээс хэд хүртэл өгч болох вэ?",
-          "correctAnswer": "0-255",
+          "question": "Юуг NFT болгох боломжтой вэ?",
+          "correctAnswer": "Бүгдийг",
           "answers": {
-            "a": "0-255",
-            "b": "-128 - 128",
-            "c": "0-256",
-            "d": "-127-127"
+            "a": "Зөвхөн дижитал уран бүтээлийг",
+            "b": "Биет зүйлсээс бусдыг",
+            "c": "Зөвхөн урлагийн бүтээл, дуу, хөгжим гэх мэтийг",
+            "d": "Бүгдийг"
           }
           
         },
         {
           "№": 38,
-          "question": "git-ийг зохиосон хүн хэн бэ?",
-          "correctAnswer": "Linus Torvalds",
+          "question": "NFT хэзээ үүссэн бэ?",
+          "correctAnswer": "2014",
           "answers": {
-            "a": "Bill Gates",
-            "b": "Gabe Newell",
-            "c": "Linus Torvalds",
-            "d": "Dennis Ritchie"
+            "a": "2014",
+            "b": "2022",
+            "c": "2019",
+            "d": "2017"
           }
           
         },
         {
           "№": 39,
-          "question": "Tensorflow юун дээр ашиглагддаг framework вэ?",
-          "correctAnswer": "Machine Learning",
+          "question": "Ard.art гэж юу вэ?",
+          "correctAnswer": "NFT бирж",
           "answers": {
-            "a": "Video Game",
-            "b": "Machine Learning",
-            "c": "Audio Player",
-            "d": "File Reader"
+            "a": "Хувьцааны бирж",
+            "b": "NFT бирж",
+            "c": "Койны бирж",
+            "d": "Ард Санхүүгийн Нэгдлийн Виртуал салбар"
           }
           
         },
         {
           "№": 40,
-          "question": "Компьютер доторх хэсгүүдийн дунд харилцааны системийг юу гэдэг вэ?",
-          "correctAnswer": "Bus",
+          "question": "NFT ямар блокчэйн дээр ихэвчлэн оршиж байгаа вэ?",
+          "correctAnswer": "Эфериум",
           "answers": {
-            "a": "Bus",
-            "b": "Messenger",
-            "c": "Mail",
-            "d": "Transporter"
+            "a": "Биткойн",
+            "b": "Солана",
+            "c": "Эфериум",
+            "d": "Фантом"
           }
           
         },
         {
           "№": 41,
-          "question": "2-тын тоололд 11010 тоо нь 10-тын тоололд хэд гэсэн тоо вэ?",
-          "correctAnswer": 26,
+          "question": "MONT гэж юу вэ?",
+          "correctAnswer": 'Төгрөгтэй аргамжсан стэйблкойн',
           "answers": {
-            "a": 26,
-            "b": 25,
-            "c": 20,
-            "d": 24
-          }
-          
-        },
-        {
-          "№": 42,
-          "question": "Python хэдэн онд бүтээгдсэн бэ?",
-          "correctAnswer": 1991,
-          "answers": {
-            "a": 1994,
-            "b": 1992,
-            "c": 1990,
-            "d": 1991
-          }
-          
-        },
-        {
-          "№": 43,
-          "question": "Google-ийн CEO хэн бэ?",
-          "correctAnswer": "Sundar Pichai",
-          "answers": {
-            "a": "Larry Page",
-            "b": "Steve Wozniak",
-            "c": "Sundar Pichai",
-            "d": "Sergey Brin"
-          }
-          
-        },
-        {
-          "№": 44,
-          "question": "API товчлол ямар утгатай вэ?",
-          "correctAnswer": "Application Programming Interface",
-          "answers": {
-            "a": "Application Programming Interface",
-            "b": "Application Program Interface",
-            "c": "Application Provider Interface",
-            "d": "Advanced Programming Interface"
-          }
-          
-        },
-        {
-          "№": 45,
-          "question": "ECMA хэдэн онд байгуулагдсан бэ?",
-          "correctAnswer": 1961,
-          "answers": {
-            "a": 1961,
-            "b": 1982,
-            "c": 1975,
-            "d": 1991
-          }
-          
-        },
-        {
-          "№": 46,
-          "question": "git хэдэн онд ашиглалтад орж эхэлсэн бэ?",
-          "correctAnswer": 2005,
-          "answers": {
-            "a": 2001,
-            "b": 2009,
-            "c": 2005,
-            "d": 2002
-          }
-          
-        },
-        {
-          "№": 47,
-          "question": "Linux үйлдлийн системийг зохиосон хүн хэн бэ?",
-          "correctAnswer": "Linus Torvalds",
-          "answers": {
-            "a": "Linus Torvalds",
-            "b": "Bill Gates",
-            "c": "Gabe Newell",
-            "d": "Steve Wozniak"
-          }
-          
-        },
-        {
-          "№": 48,
-          "question": "Linux үйлдлийн систем нь хэдэн онд ашиглалтад орсон бэ?",
-          "correctAnswer": 1991,
-          "answers": {
-            "a": 1991,
-            "b": 1989,
-            "c": 1997,
-            "d": 1994
-          }
-          
-        },
-        {
-          "№": 49,
-          "question": "Android аль үйлдлийн системээс үүсэл гаралтай вэ?",
-          "correctAnswer": "Linux",
-          "answers": {
-            "a": "Windows",
-            "b": "Unix",
-            "c": "Linux",
-            "d": "Chromium"
-          }
-          
-        },
-        {
-          "№": 50,
-          "question": "Google-ийн хуучин нэр юу байсан бэ?",
-          "correctAnswer": "Backrub",
-          "answers": {
-            "a": "Backrub",
-            "b": "Google",
-            "c": "Alphabet",
-            "d": "Frontrub"
+            "a": 'NFT',
+            "b": 'Доллартай аргамжсан стэйблкойн',
+            "c": 'Цахим мөнгө',
+            "d": 'Төгрөгтэй аргамжсан стэйблкойн'
           }
           
         },
