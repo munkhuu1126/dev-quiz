@@ -476,426 +476,210 @@ $(document).ready(function () {
         },
         {
           "№": 41,
-          "question": "MONT гэж юу вэ?",
-          "correctAnswer": 'Төгрөгтэй аргамжсан стэйблкойн',
+          "question": "Энэтхэгээс гаралтай Polygon токен ямар алдартай хөрөнгө оруулагчаас санхүүжилт авсан бэ?",
+          "correctAnswer": 'Mark Cuban',
           "answers": {
-            "a": 'NFT',
-            "b": 'Доллартай аргамжсан стэйблкойн',
-            "c": 'Цахим мөнгө',
-            "d": 'Төгрөгтэй аргамжсан стэйблкойн'
+            "a": 'Warren Buffett',
+            "b": 'Sachin Bansal',
+            "c": 'Ratan Tata',
+            "d": 'Mark Cuban'
+          }
+          
+        },
+        {
+          "№": 42,
+          "question": "WEB 3.0 -д юу хамаарахгүй вэ",
+          "correctAnswer": "Банкны систем",
+          "answers": {
+            "a": "Метаверс",
+            "b": "Блокчэйн",
+            "c": "Банкны систем",
+            "d": "NFT"
+          }
+          
+        },
+        {
+          "№": 43,
+          "question": "Дэлхийн хамгийн том NFT маркет аль нь вэ",
+          "correctAnswer": "Opensea",
+          "answers": {
+            "a": "Opensea",
+            "b": "Rarible",
+            "c": "Mintable",
+            "d": "Foundation"
+          }
+          
+        },
+        {
+          "№": 44,
+          "question": "Аль музей NFT гаргаж байсан бэ",
+          "correctAnswer": 'Эрмитаж',
+          "answers": {
+            "a": 'Монголын түүхийн музей',
+            "b": 'Луврын музей',
+            "c": 'Хятадын үндэсний төв музей',
+            "d": 'Эрмитаж'
+          }
+          
+        },
+        {
+          "№": 45,
+          "question": "Алдарт NFT уран бүтээлч BEEPLE-н хамгийн үнэтэй зарагдсан NFT хэдээр зарагдсан бэ?",
+          "correctAnswer": "69 сая доллар",
+          "answers": {
+            "a": "13 сая доллар",
+            "b": "69 сая доллар",
+            "c": "43 сая доллар",
+            "d": "92 сая доллар"
+          }
+          
+        },
+        {
+          "№": 46,
+          "question": "Аль нь NFT -ны онцлог биш вэ?",
+          "correctAnswer": "Шилжүүлэх боломжтой",
+          "answers": {
+            "a": "Устгагдахгүй",
+            "b": "Дахин давтагдашгүй",
+            "c": "Шилжүүлэх боломжтой",
+            "d": "блокчэйнд бүртгэлтэй"
+          }
+          
+        },
+        {
+          "№": 47,
+          "question": "NFT хэдэн онд хамгийн их арилжаалагдсан бэ",
+          "correctAnswer": "2021",
+          "answers": {
+            "a": "2020",
+            "b": "2014",
+            "c": "2022",
+            "d": "2021"
+          }
+          
+        },
+        {
+          "№": 48,
+          "question": "Метамаск гэж юу вэ",
+          "correctAnswer": 'Крипто хэтэвч',
+          "answers": {
+            "a": 'NFT маркет',
+            "b": 'Крипто хэтэвч',
+            "c": 'Хөрөнгө оруулалтын компани',
+            "d": 'Хакерын бүлэг'
+          }
+          
+        },
+        {
+          "№": 49,
+          "question": "Монгол койнуудын нэгдсэн мэдээллийг хаанаас авч болох вэ ?",
+          "correctAnswer": "Krypto.mn",
+          "answers": {
+            "a": "Krypto.mn",
+            "b": "Монгол хувьцааны биржүүдээс",
+            "c": "Ikon",
+            "d": "FB"
+          }
+          
+        },
+        {
+          "№": 50,
+          "question": "NFT -д хөрөнгө оруулах боломжтой юу?",
+          "correctAnswer": "Судалгааны үндсэн дээр оруулах боломжтой",
+          "answers": {
+            "a": "Боломжгүй",
+            "b": "Судалгааны үндсэн дээр оруулах боломжтой",
+            "c": "Зөвхөн компаниар дамжин оруулах",
+            "d": "Хэт өндөр үнэтэй тул хөрөнгө оруулахад тохиромжгүй"
           }
           
         },
         {
           "№": 51,
-          "question": "Хамгийн анхны блокчэйн гэрлэлт Америкийн аль мужид болсон бэ?",
-          "correctAnswer": "Калифорн",
+          "question": "Монгол койнуудын нэгдсэн мэдээллийг хаанаас авч болох вэ ?",
+          "correctAnswer": "Krypto.mn",
           "answers": {
-            "a": "Вашингтон",
-            "b": "Нью Йорк",
-            "c": "Калифорн",
-            "d": "Илинойс"
+            "a": "Krypto.mn",
+            "b": "Монгол хувьцааны биржүүдээс",
+            "c": "Ikon",
+            "d": "FB"
           }
           
         },
         {
           "№": 52,
-          "question": "Биткойныг үүсгэн байгуулсан хүнийг хэн гэж үздэг бэ?",
-          "correctAnswer": "Сатоши Накамото",
+          "question": "CryptoPunks юуны зурагтай вэ?",
+          "correctAnswer": "Хүн",
           "answers": {
-            "a": "Сатоши Накамото",
-            "b": "Франк Вилтнер",
-            "c": "Билл Гэйтс",
-            "d": "Виталик Бутерин"
+            "a": "Нохой",
+            "b": "Сармагчин",
+            "c": "Муужгай",
+            "d": "Хүн"
           }
           
         },
         {
           "№": 53,
-          "question": "Bitcoin.org домайн анх хэдэн онд бүртгэгдсэн бэ?",
-          "correctAnswer": 2008,
+          "question": "BEEPLE гэж хэн бэ?",
+          "correctAnswer": "NFT артист",
           "answers": {
-            "a": 2013,
-            "b": 2009,
-            "c": 2010,
-            "d": 2008
+            "a": "NFT артист",
+            "b": "Биткойныг анх зохиосон хүн",
+            "c": "Хөрөнгө оруулагч",
+            "d": "Хамгийн баян арилжаачин"
           }
           
         },
         {
           "№": 54,
-          "question": "Этэриумын Proof-of-stake нэвтрүүлсэн сүлжээг юу гэж нэрлэдэг бэ?",
-          "correctAnswer": "Beacon",
+          "question": "NFT-н түгээмэл хэрэглэгддэг стандартууд аль вэ?",
+          "correctAnswer": "721, 1155",
           "answers": {
-            "a": "Frontier",
-            "b": "Beacon",
-            "c": "Staking",
-            "d": "Bill Gates"
+            "a": "721, 20",
+            "b": "20, 1155",
+            "c": "721, 1155",
+            "d": "1315"
           }
           
         },
         {
           "№": 55,
-          "question": "USDT буюу Tether нь ямар төрлийн крипто хөрөнгөд ордог бэ?",
-          "correctAnswer": "Stablecoin",
+          "question": "Хамгийн анхны NFT ашигласан тоглоом юу вэ?",
+          "correctAnswer": "Spell of Genesis",
           "answers": {
-            "a": "USDCoin",
-            "b": "Stablecoin",
-            "c": "Blockchain Coin",
-            "d": "Bill Gates Coin"
+            "a": "Spell of Genesis",
+            "b": "Crypto Kitties",
+            "c": "Crypto Punk",
+            "d": "Bored Ape"
           }
           
         },
         {
           "№": 56,
-          "question": "Дэлхийн валютын хэд орчим хувь цахим хэлбэрээр гүйлгээнд оролцдог вэ ?",
-          "correctAnswer": "90 орчим",
+          "question": "Хамгийн алдартай NFT тоглоом аль нь вэ?",
+          "correctAnswer": "Axie Infinity",
           "answers": {
-            "a": "70 орчим",
-            "b": "80 орчим",
-            "c": "90 орчим",
-            "d": "60 орчим"
+            "a": "BigTime",
+            "b": "Axie Infinity",
+            "c": "Decentraland",
+            "d": "The Sandbox"
           }
           
         },
         {
           "№": 57,
-          "question": "Хамгийн анхны биткойн хэдэн онд олборлогдсон бэ?",
-          "correctAnswer": 2009,
+          "question": "АрдКойны төрөлх бирж аль вэ?",
+          "correctAnswer": "DAX",
           "answers": {
-            "a": 2009,
-            "b": 2008,
-            "c": 2010,
-            "d": 2013
+            "a": "Coinhub",
+            "b": "Trade",
+            "c": "DAX",
+            "d": "Complex"
           }
           
         },
         {
           "№": 58,
-          "question": "АрдКойн анх зах зээлд хэдэн төгрөгөөр гарч байсан бэ?",
-          "correctAnswer": "1 төгрөг",
-          "answers": {
-            "a": "1 төгрөг",
-            "b": "15 төгрөг",
-            "c": "10 төгрөг",
-            "d": "5 төгрөг"
-          }
-          
-        },
-        {
-          "№": 59,
-          "question": "АрдКойн зах зээлд хэдэн ширхэг гарсан бэ?",
-          "correctAnswer": "5.1 тэрбум",
-          "answers": {
-            "a": "5.1 тэрбум",
-            "b": "100 тэрбум",
-            "c": "10 тэрбум",
-            "d": "15 тэрбум"
-          }
-          
-        },
-        {
-          "№": 60,
-          "question": "Их хэмжээний Койн эзэмшдэг хүнийг юу гэж нэрлэдэг вэ?",
-          "correctAnswer": "Whale",
-          "answers": {
-            "a": "Tail",
-            "b": "Shark",
-            "c": "Squid",
-            "d": "Whale"
-          }
-          
-        },
-        {
-          "№": 61,
-          "question": "Биткойны нийлүүлэлт хэд вэ?",
-          "correctAnswer": "21,000,000",
-          "answers": {
-            "a": "19,000,000",
-            "b": "20,000,000",
-            "c": "21,000,000",
-            "d": "22,000,000"
-          }
-          
-        },
-        {
-          "№": 62,
-          "question": "Дэлхийд хамгийн анх криптовалютаар юу худалдаж авч байсан бэ?",
-          "correctAnswer": "Пицца",
-          "answers": {
-            "a": "Зурагт",
-            "b": "Пицца",
-            "c": "Компьютер",
-            "d": "Машин"
-          }
-          
-        },
-        {
-          "№": 63,
-          "question": "Хамгийн анхны криптовалют?",
-          "correctAnswer": "Bitcoin",
-          "answers": {
-            "a": "Luna",
-            "b": "Bitcoin",
-            "c": "Dogecoin",
-            "d": "Ether"
-          }
-          
-        },
-        {
-          "№": 64,
-          "question": "Эдгээр орнуудын аль нь Bitcoin -ийн хамгийн том олборлогчдын нэг вэ?",
-          "correctAnswer": "Хятад",
-          "answers": {
-            "a": "Франц",
-            "b": "Хятад",
-            "c": "Балба",
-            "d": "Алжир"
-          }
-          
-        },
-        {
-          "№": 65,
-          "question": "DAX.mn хэдэн онд байгуулагдсан бэ?",
-          "correctAnswer": "2020 он",
-          "answers": {
-            "a": "2018 он",
-            "b": "2020 он",
-            "c": "2016 он",
-            "d": "2017 он"
-          }
-          
-        },
-        {
-          "№": 66,
-          "question": "Этэриум технологи дээр суурилсан анхны тоглоомын нэр?",
-          "correctAnswer": "CryptoKitties",
-          "answers": {
-            "a": "CryptoKitties",
-            "b": "Cryptobox",
-            "c": "Ethergame",
-            "d": "Cryptomon"
-          }
-          
-        },
-        {
-          "№": 67,
-          "question": "Биткойны 0.00000001-тэй тэнцэх хамгийн бага нэгжийн нэр?",
-          "correctAnswer": "Satoshi",
-          "answers": {
-            "a": "Smalbit",
-            "b": "Minibit",
-            "c": "Satoshi",
-            "d": "Ethereum"
-          }
-          
-        },
-        {
-          "№": 68,
-          "question": "Биткойноос бусад койнуудыг ерөнхийлөн нэрлэдэг нэр?",
-          "correctAnswer": "Altcoin",
-          "answers": {
-            "a": "Othercoin",
-            "b": "Acoin",
-            "c": "Money",
-            "d": "Altcoin"
-          }
-          
-        },
-        {
-          "№": 69,
-          "question": "Криптовалютын ертөнцөд ямар өдрийг Биткойн Пиццаны өдөр болгон тэмдэглэдэг вэ?",
-          "correctAnswer": "5 сарын 22",
-          "answers": {
-            "a": "7 сарын 4",
-            "b": "5 сарын 22",
-            "c": "2 сарын 5",
-            "d": "12 сарын 10"
-          }
-          
-        },
-        {
-          "№": 70,
-          "question": "Санхүүгийн бүтээгдэхүүнийг төвлөрсөн бус блокчэйн сүлжээнд ашиглах боломжтой системийг нэрлэдэг?",
-          "correctAnswer": "DeFi",
-          "answers": {
-            "a": "DCFP (decentralized Financial Products)",
-            "b": "FinChain",
-            "c": "Bona Fide",
-            "d": "DeFi"
-          }
-          
-        },
-        {
-          "№": 71,
-          "question": "Ухаалаг гар утасны аль брэнд нь дэлхийн анхны блокчейн утас болох Exodus I-ийг гаргаж байсан бэ?",
-          "correctAnswer": "HTC",
-          "answers": {
-            "a": "HTC",
-            "b": "Nokia",
-            "c": "Motorola",
-            "d": "Blackberry"
-          }
-          
-        },
-        {
-          "№": 72,
-          "question": "Хэн гэдэг реппэр 2015 онд \"Animal Ambition\" цомгоо Биткойноор худалдаж авах боломжтой болгож, 700 гаруй BTC борлуулалт хийсэн бэ?",
-          "correctAnswer": "50 Cent",
-          "answers": {
-            "a": "50 Cent",
-            "b": "Eminem",
-            "c": "Jay-Z",
-            "d": "Kanye West"
-          }
-          
-        },
-        {
-          "№": 73,
-          "question": "2018 онд аль байгууллага блокчэйнд суурилсан Бонд-I нэртэй бонд гаргасан бэ?",
-          "correctAnswer": "Дэлхийн Банк",
-          "answers": {
-            "a": "Европын Холбоо",
-            "b": "Олон Улсын Валютын Сан",
-            "c": "Дэлхийн Банк",
-            "d": "Дэлхийн худалдааны байгууллага"
-          }
-          
-        },
-        {
-          "№": 74,
-          "question": "DApp\" дээрх D нь ямар утгатай вэ?",
-          "correctAnswer": "Decentralized",
-          "answers": {
-            "a": "Distributed",
-            "b": "Decentralized",
-            "c": "Defined",
-            "d": "Dogecoin"
-          }
-          
-        },
-        {
-          "№": 75,
-          "question": "Хэрэв 1 BTC нь 100 сая Сатоши -тай тэнцүү бол 1 ETH нь 1 тэрбум _____ -тай тэнцүү вэ?",
-          "correctAnswer": "Gwei",
-          "answers": {
-            "a": "Ethbits",
-            "b": "Matic",
-            "c": "Gwei",
-            "d": "Sols"
-          }
-          
-        },
-        {
-          "№": 76,
-          "question": "Этэриумын үүсгэн байгуулагчдын нэг Gavin Wood хожим 2016 онд Этэриумээс гарч өөрийн ямар сүлжээг эхлүүлсэн вэ?",
-          "correctAnswer": "Polkadot",
-          "answers": {
-            "a": "Cardano",
-            "b": "Polkadot",
-            "c": "Solana",
-            "d": "Harmony"
-          }
-          
-        },
-        {
-          "№": 77,
-          "question": "Биткойны боломжит нөөцийн хэдэн хувь нь одоогоор олборлогдсон байгаа вэ?",
-          "correctAnswer": "90%",
-          "answers": {
-            "a": "90%",
-            "b": "48%",
-            "c": "32%",
-            "d": "25%"
-          }
-          
-        },
-        {
-          "№": 78,
-          "question": "NBA тоглогчдынхоо онцлох үйл явдлын NFT борлуулдаг платформын нэр?",
-          "correctAnswer": "Top Shot",
-          "answers": {
-            "a": "Top Shot",
-            "b": "Sizzle Reel",
-            "c": "Court Stars",
-            "d": "Highlight Frame"
-          }
-          
-        },
-        {
-          "№": 79,
-          "question": "Хөл бөмбөгийн ямар тоглогч цалингаа хэсэгчлэн токеноор авдаг вэ?",
-          "correctAnswer": "Lionel Messi",
-          "answers": {
-            "a": "Danny Ings",
-            "b": "Jack Grealish",
-            "c": "Lionel Messi",
-            "d": "Jadon Sancho"
-          }
-          
-        },
-        {
-          "№": 80,
-          "question": "Хэрэглэгчид виртуал ертөнцөд газар авах, барих, зарах боломж олгодог Этэриумын блокчэйн дээр суурилсан төвлөрсөн бус 3D виртуал платформын нэр?",
-          "correctAnswer": "Decentraland",
-          "answers": {
-            "a": "Minecraft",
-            "b": "Decentraland",
-            "c": "Runescape",
-            "d": "Sims"
-          }
-          
-        },
-        {
-          "№": 81,
-          "question": "Энэтхэгээс гаралтай Polygon токен ямар алдартай хөрөнгө оруулагчаас санхүүжилт авсан бэ?",
-          "correctAnswer": "Mark Cuban",
-          "answers": {
-            "a": "Ratan Tata",
-            "b": "Mark Cuban",
-            "c": "Sachin Bansal",
-            "d": "Warren Buffett"
-          }
-          
-        },
-        {
-          "№": 82,
-          "question": "АрдКойны төрөлх бирж аль вэ?",
-          "correctAnswer": "DAX",
-          "answers": {
-            "a": "Complex",
-            "b": "Trade",
-            "c": "Coinhub",
-            "d": "DAX"
-          }
-          
-        },
-        {
-          "№": 83,
-          "question": "2021 оны 6 -р сард Төв Америкийн аль улс биткоиныг хууль ёсны төлбөрийн хэрэгсэл болгон хүлээн авсан дэлхийн анхны улс болсон бэ?",
-          "correctAnswer": "Эл Салвадор",
-          "answers": {
-            "a": "Гватемал",
-            "b": "Куба",
-            "c": "Панам",
-            "d": "Эл Салвадор"
-          }
-          
-        },
-        {
-          "№": 84,
-          "question": "Японы Шиба Инү үүлдрийн нохой нь онлайн меме хэлбэрээр алдартай болсон бөгөөд ямар криптовалюттай холбоотой вэ?",
-          "correctAnswer": "Dogecoin",
-          "answers": {
-            "a": "Litecoin",
-            "b": "Luckycoin",
-            "c": "Dogecoin",
-            "d": "Stellar"
-          }
-          
-        },
-        {
-          "№": 85,
           "question": "Хатуу дискний ашиглагдаагүй зайг түрээсийн төлбөр төлөх зориулалттай нээлттэй эх сурвалжтай криптовалютын нэр?",
           "correctAnswer": "Filecoin",
           "answers": {
@@ -907,89 +691,186 @@ $(document).ready(function () {
           
         },
         {
-          "№": 86,
-          "question": "Cardano Foundation ямар криптовалютыг алдарт математикчийн нэрээр  нэрлэсэн бэ?",
-          "correctAnswer": "ADA",
-          "answers": {
-            "a": "ADA",
-            "b": "ETH",
-            "c": "THETA",
-            "d": "SOL"
-          }
-          
-        },
-        {
-          "№": 87,
-          "question": "HODL бол криптовалютыг урт хугацаанд хадгалах стратеги юм. Энэ нь бичгийн алдаа хэлбэрээр эхэлсэн боловч одоо юу гэсэн утгатай вэ?",
-          "correctAnswer": "Hold On for Dear Life",
-          "answers": {
-            "a": "Hold On for Dear Life",
-            "b": "Hoarding of Decentralized Litecoin",
-            "c": "Happy once Doge Lifts",
-            "d": "Having Old Decrypted Ledgers"
-          }
-          
-        },
-        {
-          "№": 88,
-          "question": "Дэлхийн хамгийн идэвхтэй арилжаалагддаг криптовалют юу вэ?",
-          "correctAnswer": "Tether",
-          "answers": {
-            "a": "Ether",
-            "b": "Bitcoin",
-            "c": "Tether",
-            "d": "Dogecoin"
-          }
-          
-        },
-        {
-          "№": 89,
+          "№": 59,
           "question": "Монеро олборлолтын ямар алгоритм ашигладаг вэ?",
-          "correctAnswer": "RandomX",
+          "correctAnswer": 'RandomX',
           "answers": {
-            "a": "SHA-256",
-            "b": "CryptoNight",
-            "c": "RandomX",
-            "d": "CryptoMining"
+            "a": 'CryptoNight',
+            "b": 'SHA-256',
+            "c": 'CryptoMining',
+            "d": 'RandomX'
           }
           
         },
         {
-          "№": 90,
+          "№": 60,
           "question": "Хамгийн анх аль блокчэйн дээр ухаалаг гэрээг байгуулах боломжтой болсон бэ?",
           "correctAnswer": "Ethereum",
           "answers": {
-            "a": "Ethereum",
-            "b": "Cardano",
+            "a": "Cardano",
+            "b": "Ethereum",
             "c": "Bitcoin",
             "d": "Matic"
           }
           
         },
         {
-          "№": 91,
+          "№": 61,
           "question": "Биткойны бүх цагийн үеийн хамгийн өндөр дүн аль нь бэ?",
           "correctAnswer": "~67000 доллар",
           "answers": {
-            "a": "~70000 доллар",
-            "b": "~40000 доллар",
+            "a": "~40000 доллар",
+            "b": "~67000 доллар",
             "c": "~55000 доллар",
-            "d": "~67000 доллар"
+            "d": "~70000 доллар"
           }
           
         },
         {
-          "№": 92,
+          "№": 62,
           "question": "Блокчэйн технологи анх ямар зорилготойгоор санаачлагдаж байсан бэ?",
           "correctAnswer": "Spam имэйл шалгах",
           "answers": {
-            "a": "Spam имэйл шалгах",
-            "b": "Хэрэглэгч бүртгэл",
-            "c": "Цахим тооцоолол",
+            "a": "Хэрэглэгч бүртгэл",
+            "b": "Цахим тооцоолол",
+            "c": "Spam имэйл шалгах",
             "d": "Цасны хайлах хурдыг тодорхойлох"
           }
           
-        }
+        },
+        {
+          "№": 63,
+          "question": "Stake хийгдсэн хэмжээгээрээ Ether-г гүйцэн 2-р байранд орсон койн?",
+          "correctAnswer": 'Luna',
+          "answers": {
+            "a": 'Polkadot',
+            "b": 'Luna',
+            "c": 'Cardano',
+            "d": 'Cosmos'
+          }
+          
+        },
+        {
+          "№": 64,
+          "question": "Хамгийн үнэтэй NFT хэдээр зарагдсан бэ",
+          "correctAnswer": "91.8 сая доллар",
+          "answers": {
+            "a": "91.8 сая доллар",
+            "b": "80.5 сая доллар",
+            "c": "50.1 сая доллар",
+            "d": "10.23 сая доллар"
+          }
+          
+        },
+        {
+          "№": 65,
+          "question": "Bored Ape NFT юуны зурагтай вэ",
+          "correctAnswer": "Сармагчин",
+          "answers": {
+            "a": "Туулай",
+            "b": "Сармагчин",
+            "c": "Хүн",
+            "d": "Морь"
+          }
+          
+        },
+        {
+          "№": 66,
+          "question": "Монголын анхны NFT дуудлага худалдааг аль платформ дээр хийсэн бэ?",
+          "correctAnswer": "Ardshop",
+          "answers": {
+            "a": "KFC",
+            "b": "Ardshop",
+            "c": "Shoppy",
+            "d": "Krypto.mn"
+          }
+          
+        },
+        {
+          "№": 67,
+          "question": "NFT орших боломжгүй блокчэйн аль нь бэ?",
+          "correctAnswer": "Bitcoin",
+          "answers": {
+            "a": "Ethereum",
+            "b": "Bitcoin",
+            "c": "Stellar",
+            "d": "Polygon"
+          }
+          
+        },
+        {
+          "№": 68,
+          "question": "Eminem, Justin Bieber, Jimmy Fallon нар аль NFT коллекцийн эзэмшигч бэ?",
+          "correctAnswer": "Bored Ape Yacht Club",
+          "answers": {
+            "a": "Hollywood NFT Club",
+            "b": "NeverLand ",
+            "c": "Bored Ape Yacht Club",
+            "d": "MontleyFool"
+          }
+          
+        },
+        {
+          "№": 69,
+          "question": "Аль Метаверст Snoop Dogg-н хөрш байж болох вэ?",
+          "correctAnswer": 'The Sandbox',
+          "answers": {
+            "a": 'Decentraland',
+            "b": 'The Sandbox',
+            "c": 'Gala Metaverse',
+            "d": 'Earth 2.0'
+          }
+          
+        },
+        {
+          "№": 70,
+          "question": "Өдөр бүр 1 ширхгээр хэвлэгддэг NFT коллекц аль нь вэ?",
+          "correctAnswer": "The Nouns",
+          "answers": {
+            "a": "BEEPLE",
+            "b": "The Daily",
+            "c": "The Nouns",
+            "d": "Times magazine NFT"
+          }
+          
+        },
+        {
+          "№": 71,
+          "question": "Aль нь Blockchain хөгжүүлэлтийн хэл биш вэ?",
+          "correctAnswer": "PERL",
+          "answers": {
+            "a": "Solidity",
+            "b": "Haskell",
+            "c": "Go",
+            "d": "PERL"
+          }
+          
+        },
+        {
+          "№": 72,
+          "question": "Хамгийн өндөр үнэлгээтэй  NFT коллекц аль нь вэ?",
+          "correctAnswer": "Bored Ape Yacht Club",
+          "answers": {
+            "a": "Bored Ape Yacht Club",
+            "b": "Crypto Kitties",
+            "c": "BEEPLE",
+            "d": "Akashi"
+          }
+          
+        },
+        {
+          "№": 73,
+          "question": "Аль нь метаверс биш вэ?",
+          "correctAnswer": "Facebook (META)",
+          "answers": {
+            "a": "PUBG",
+            "b": "Facebook (META)",
+            "c": "Minecraft",
+            "d": "Sandbox"
+          }
+          
+        },
+        
       ]
         
 
